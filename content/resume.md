@@ -5,6 +5,13 @@ title = "Resume"
 ## Freelance  
 *Sep 2022 – Present*
 
+### The Matcher - R&D Software Engineer
+- Responsible for developing and maintaining mobile applications using Vue.js, Node.js, & SQL, focusing on user
+experience enhancements in collaboration with the product team.
+- Tasked with integrating APIs, managing database operations for backend services, and creating/maintaining the
+core system with customised data model development to meet business requirements.
+
+
 ### Troops HK — Technical Lead
 - Led a cross-functional team to develop 30+ new features (React Native and Django), driving an 80% increase in user growth.
 - Optimized backend API response times, reducing latency and improving app performance.

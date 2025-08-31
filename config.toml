@@ -16,12 +16,13 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+logo_text = "vmrnd"
+author = "Vinit Miranda"
 accent_color = "green-auto"
 background_color = "auto"
 menu_items = [
+  { name = "blog", url = "$BASE_URL", newtab = false },
   { name = "about", url = "$BASE_URL/about/", newtab = false },
   { name = "resume", url = "$BASE_URL/resume/", newtab = false },
-  { name = "blog", url = "$BASE_URL/blog/", newtab = false },
   { name = "github", url = "https://github.com/vmrnd", newtab = true },
-  { name = "strava", url = "$BASE_URL/strava/", newtab = true }
 ]

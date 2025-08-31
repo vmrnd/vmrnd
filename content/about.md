@@ -2,14 +2,4 @@
 title = "About"
 +++
 
-Hi, I'm **Vinit**, a software developer
-
----
-
-### Skills
-
-- C
-- Java
-- Scala
-- Python
-- JavaScript
+Hello there, I'm Vinit Miranda, a software engineer. I enjoy building embedded systems, learning foreign languages, and going for the occasional run or football
