@@ -1,5 +1,6 @@
 +++
 title = "Resume"
+path = "resume"
 +++
 
 ## Freelance  
