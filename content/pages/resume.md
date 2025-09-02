@@ -7,7 +7,7 @@ path = "resume"
 *Sep 2022 – Present*
 
 ### The Matcher - R&D Software Engineer
-- Responsible for developing and maintaining mobile applications using Vue.js, Node.js, & SQL, focusing on user
+- Responsible for developing and maintaining mobile applications using Nest JS, focusing on user
 experience enhancements in collaboration with the product team.
 - Tasked with integrating APIs, managing database operations for backend services, and creating/maintaining the
 core system with customised data model development to meet business requirements.

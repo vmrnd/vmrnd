@@ -9,6 +9,10 @@ build_search_index = true
 
 theme = "zola-theme-terminimal"
 
+taxonomies = [
+  { name = "tags" },
+]
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -20,9 +24,12 @@ logo_text = "vmrnd"
 author = "Vinit Miranda"
 accent_color = "green-auto"
 background_color = "auto"
+
 menu_items = [
   { name = "blog", url = "$BASE_URL", newtab = false },
   { name = "about", url = "$BASE_URL/about/", newtab = false },
-  { name = "resume", url = "$BASE_URL/resume/", newtab = false },
+  { name = "tags", url = "$BASE_URL/tags" },
+  { name = "work", url = "$BASE_URL/work/", newtab = false },
+  { name = "projects", url = "$BASE_URL/projects/", newtab = false },
   { name = "github", url = "https://github.com/vmrnd", newtab = true },
 ]
