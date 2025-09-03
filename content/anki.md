@@ -2,7 +2,7 @@
 title = "Learning on Anki"
 date = "2025-09-01"
 [taxonomies]
-tags = ["learning"]
+tags = ["blog"]
 +++
 
 ###
