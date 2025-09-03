@@ -5,5 +5,4 @@ weight = 3
 tags = ["music"]
 +++
 
-The project made the use of technology based methods to teach music to Students with Special Needs in
-Philippines.
+The project made the use of technology based methods to teach music to Students with Special Needs in Philippines.

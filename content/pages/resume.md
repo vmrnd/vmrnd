@@ -9,7 +9,7 @@ path = "resume"
 ### The Matcher - R&D Software Engineer
 - Responsible for developing and maintaining mobile applications using Nest JS, focusing on user
 experience enhancements in collaboration with the product team.
-- Tasked with integrating APIs, managing database operations for backend services, and creating/maintaining the
+- Tasked with integrating APIs, managing database operations for backend services, and creating/maintaini`ng the
 core system with customised data model development to meet business requirements.
 
 
@@ -26,9 +26,6 @@ core system with customised data model development to meet business requirements
 
 ### ARTBAT — Contractor
 - Developed an audio-reactive visualizer using TouchDesigner, showcased at a digital art event with 150+ attendees, enhancing audience interaction.
-
-### Aura Labs — Senior Software Engineer
-- Built a React, Typescript front-end for a property development software, reducing load time and improving user satisfaction.
 
 ---
 
