@@ -1,0 +1,10 @@
+{% extends "zola-theme-terminimal/templates/index.html" %}
+
+{% block header %}
+{{ super() }}
+{%- if section.content %}
+<div class="section-content">
+    {{ section.content | safe }}
+</div>
+{% endif %}
+{% endblock header %}

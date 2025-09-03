@@ -24,6 +24,8 @@ logo_text = "vmrnd"
 author = "Vinit Miranda"
 accent_color = "green-auto"
 background_color = "auto"
+copyright_html = "Contact: <a href=\"mailto:vinitmiranda@gmail.com\">vinitmiranda@gmail.com</a>"
+post_view_navigation_prompt = "Read more"
 
 menu_items = [
   { name = "blog", url = "$BASE_URL", newtab = false },
@@ -33,3 +35,4 @@ menu_items = [
   { name = "projects", url = "$BASE_URL/projects/", newtab = false },
   { name = "github", url = "https://github.com/vmrnd", newtab = true },
 ]
+
