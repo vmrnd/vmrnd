@@ -1,6 +1,6 @@
 +++
 title = "Youth Global Network"
-weight = 3
+weight = 2
 [taxonomies]
 tags = ["vcv rack", "music"]
 +++

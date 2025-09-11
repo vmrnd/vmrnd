@@ -20,16 +20,16 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
-logo_text = "vmrnd"
+logo_text = "vmrnd. 每天快乐"
 author = "Vinit Miranda"
 accent_color = "green-auto"
 background_color = "auto"
-copyright_html = "Contact: <a href=\"mailto:vinitmiranda@gmail.com\">vinitmiranda@gmail.com</a>"
+copyright_html = "Contact: <a href=\"mailto:vmiranda@connect.hku.hk\">vmiranda@connect.hku.hk</a>"
 post_view_navigation_prompt = "Read more"
 
 menu_items = [
-  { name = "blog", url = "$BASE_URL", newtab = false },
-  { name = "about", url = "$BASE_URL/about/", newtab = false },
+  { name = "about", url = "$BASE_URL", newtab = false },
+  { name = "blog", url = "$BASE_URL/blog", newtab = false },
   { name = "tags", url = "$BASE_URL/tags" },
   { name = "work", url = "$BASE_URL/work/", newtab = false },
   { name = "projects", url = "$BASE_URL/projects/", newtab = false },
