@@ -5,6 +5,8 @@ path = "about"
 
 Hello there, I'm Vinit Miranda, a musician and software engineer (HKU 2019). I enjoy building systems, continuous learning, and going for the occasional run or football
 
+## Skills
+
 ### Embedded Systems: 
 - C, C++, ESP32, Raspberry Pi, Pico, Linux, BLE, USB
 ### AI & Computer Vision: 
