@@ -1,3 +1,4 @@
+/* Theme tokens: change these variables to adjust the overall look. */
 :root {
   --bg: #ffffff;
   --text: #727272;
@@ -17,6 +18,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Base reset and typography */
 * {
   box-sizing: border-box;
 }
@@ -69,6 +71,7 @@ img {
   max-width: 100%;
 }
 
+/* Page shell: 270px identity column + 500px content column, centered. */
 .wrapper {
   width: 860px;
   margin: 0 auto;
@@ -78,11 +81,13 @@ img {
   align-items: start;
 }
 
+/* Left column: stays in view while the project sections scroll. */
 .site-header {
   position: sticky;
   top: 50px;
 }
 
+/* Logo and wordmark block */
 .brand {
   display: block;
   color: var(--heading);
@@ -114,11 +119,13 @@ img {
   font-weight: 700;
 }
 
+/* Right column: project sections stack vertically. */
 .content {
   display: flex;
   flex-direction: column;
 }
 
+/* Intro copy and the numbered section links. */
 .intro {
   margin-top: 28px;
 }
@@ -158,6 +165,7 @@ img {
   margin-top: 20px;
 }
 
+/* Project sections: shared spacing, anchor offset, and index labels. */
 .project {
   margin-top: 50px;
   scroll-margin-top: 20px;
@@ -181,6 +189,7 @@ img {
   text-transform: uppercase;
 }
 
+/* Contact section and its label/column list. */
 .contact {
   margin-top: 50px;
   scroll-margin-top: 20px;
@@ -204,6 +213,7 @@ img {
   color: var(--muted);
 }
 
+/* Shared media treatment: landscape 16:9 by default. */
 .project__media {
   display: block;
   width: 100%;
@@ -222,6 +232,7 @@ img {
   gap: 10px;
 }
 
+/* The workshop trio uses portrait tiles for its vertical GIFs. */
 .project__media-grid--three {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -234,6 +245,7 @@ img {
   margin-top: 15px;
 }
 
+/* Workshop photo gallery: landscape 3:2 crops in a two-column grid. */
 .project__gallery img {
   display: block;
   width: 100%;
@@ -247,6 +259,31 @@ img {
 
 .project p {
   margin: 0 0 15px;
+}
+
+/* Partner logos shown below the workshop gallery. */
+.partners {
+  margin-top: 30px;
+}
+
+.partners h3 {
+  margin: 0 0 15px;
+  color: #393939;
+  font-size: 18px;
+}
+
+.partners__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  align-items: center;
+}
+
+.partners__grid img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .product-link {
@@ -269,6 +306,7 @@ img {
   opacity: 0.85;
 }
 
+/* Responsive: stack the identity and content columns below 960px. */
 @media print, screen and (max-width: 960px) {
   .wrapper {
     display: block;
@@ -288,6 +326,7 @@ img {
   }
 }
 
+/* Mobile: tighter padding and simplified media grids. */
 @media screen and (max-width: 480px) {
   body {
     padding: 15px;
@@ -300,8 +339,13 @@ img {
   .project__media-grid--three {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .partners__grid {
+    grid-template-columns: 1fr;
+  }
 }
 
+/* Print styles: remove screen padding and use a compact text size. */
 @media print {
   body {
     padding: 0.4in;
